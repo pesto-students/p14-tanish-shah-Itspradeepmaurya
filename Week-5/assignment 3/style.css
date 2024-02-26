@@ -1,0 +1,21 @@
+header {
+    background-color: red;
+    color: beige;
+    font-size: large;
+}
+sub {
+    color: bisque;
+}
+section {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.logo1 {
+    size: 1cap;
+}
+footer {
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
