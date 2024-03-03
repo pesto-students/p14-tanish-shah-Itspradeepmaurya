@@ -1,0 +1,58 @@
+.table {
+    height: 300px;
+    width: 400px;
+    background-color: green;
+}
+.cardRed {
+    color: red;
+}
+.cardBlack {
+    color: black;
+}
+.card {
+    background-color:whitesmoke;
+    height: 160px;
+    width:100px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 0px black;
+    line-height: 160px;
+    text-align: center;
+    font-size: 80px;
+}
+.cardTop {
+position: absolute;
+left: 150px;
+top: 100px;
+z-index: 1;
+}
+.cardBottom {
+position: absolute;
+left: 235px;
+top: 120px;
+z-index: 0;
+}
+.heart {
+ color: red;
+ font-size: 28px;
+ width: 30px;
+ height: 30px;
+ line-height:30px ;
+}
+.spade {
+ color: black;
+ font-size:36px ;
+ width: 30px;
+ height: 30px;
+ line-height: 30px;
+}
+.topLeft {
+position: absolute;
+left: 2px;
+top: 2px;
+} 
+.bottomRight {
+position: absolute;
+bottom: 2px;
+right: 2px;
+}
