@@ -16,5 +16,6 @@ p {
     padding: 10px;
     background-image: linear-gradient(to bottom right,darkblue,skyblue);
     box-shadow: 5px 5px 6px gray;
-    border-radius: 5px;
+    border-radius: 6px;
+
 }
