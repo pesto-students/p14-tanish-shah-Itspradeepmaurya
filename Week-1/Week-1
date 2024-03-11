@@ -1,1 +1,43 @@
+Week 1 Assignments.
+Q1.What is a protocol stack, and how is it used in web development?
+
+Ans.- A protocol stack is important concept used in URL as web address. for example in "http://apps.pesto.tech/developer" here http is a protocol stack is used which stands for 'Hypertext Transfer Protocol' , similarly there is HTTPS(Hypertext Transfer Protocol Secure), FTP(File Transfer Protocol) , mailto(when clicked open default email with specific address) as protocol.
+- we can provide a layer architecturewith the help of protocol.
+- There are four layers in protocol.First id Application layer  = HTTP , TLS, DNS(Domain Name server)
+Transport Layer = TCP , UDP
+Network layer = IP(v4, v6)
+Link Layer(Ethernet , Wireless LAN)
+
+
+
+Q2.What are the different types of web servers, and how do they differ in terms of functionality and performance?
+Ans. - Web server are programs that process network request of the user and serve them with files of web page. Some web servers are Apache HTTP server(), Microsoft internet information service ,Nginx , Lightspeed web server.
+1) Apache http server - Its an open source, most widely used , highly customizable,secure and reliable  server running about 60% of website and operating on various OS such as Linux, Windows, MacOS. It consumes  a lot of memory, CPU resource especially when handling High traffic. 
+2) Microsoft Internet Information Service - Its developed by Microsoft that runs on Windows offering various features such as authentication, compression, caching, customer support but its less compatible with other platforms. 
+3) Nginx - Its a web server that offers high performace, scalibility, low memory usage, can handle large number of concurrent users with static and dynamic content efficiently.It also support load balancing, reverse proxying, streaming.
+4) LiteSpeed web servers - Its Compatible with apache and offers faster speed, more security, stability and can handle more request per second and reduce  server load while providing features like caching, compression, ssl,etc.
+
+
+
+Q3.What is web hosting, and what are the different types of hosting services available for websites?
+Ans. - Hosting is service where user makes his website live and it is accessible on internet. There are various ttypes of web hosting availible 
+1) Shared Hosting : Shared hosting is like sharing small apartment with roommates . Multiple website uses same resources such as storage, memory and processing power. Its used when budget is low or you have very low traffic.Ex- bluehost, hostgator,siteground.
+2) VPS(Virtual Private Server) Hosting : Its like renting a private room in a shared house. It offers more flexibility and resource then shared hosting as you get specific virtual server for your website.Its helpful when your traffic is increasing and you need more control on your server. Ex - digitalOcean, linode, vultr.
+3) Dedicatred Hosting : Dedicated hosting is like owning a house, you get get entire physical server dedicated only to your website which helps highest performace and customization. Its helpful when you have a large resource intensive website with high traffic or you need complete control over server configuration. Ex - liquidweb, inmotionhosting, hostwinds.
+4) Cloud Hosting : Cloud hosting is like living in a flexible apartment building . It uses multiple interconnected servers to provide scalibility and reliability. It helps when traffic levels highly varies as cloud provide dynamically scale resource up or down. Ex - AWS, GCP , Azure.
+5) Managed Wordpress Hosting : Managed wordpress hosting isa like having a maintainance team for your website. The hosting provider takes care of updates, backup, security.Its used when you run a wordpress site and want to focus on content creation without dealing with the technical aspects.
+EX- wpEngine, getflywheel, kinsta.
+6) Reseller Hosting : Reseller hosting is like a being a middleman. you purchase hosting resources in bulk from a provider and sell smaller hosting plans to others.It helps if you want to start web hosting business or manage multiple website for clients. ex - Hostpapa,  A2 hosting, hostgator.
+
+
+Q4.What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+Ans. - Scaling Webservers means increasing capacity of a website to handle more users , traffic and requests so that it prevents increased load time, leading to slower response time and potential crashes, scaling helps to managed website accessible and responsive during high traffic periods.there are two types of scaling verticle and horizontal scaling.
+we can uses load balancers, auto scaling, database scaling, caching  to scale servers.
+
+1) Verticle Scaling(Scaling up ) : When website have increased traffic but limited resource to invest in additional server then we increase CPU , RAM and storege of existing server by giving more power to it to handle more load.Its helpful for smaller websitewhich do not expect continuos high traffic.
+2) Horizontal Scaling(Scaling out) : It involves adding more server to to existing infrastructure by  sharing traffic load.Its helpful for large website which handle large traffic and expect sudden high traffic which single erver can't handle effectively. By adding more server traffic get distrubuted acoss multiple server allowing for beetter performance, increased rebundancy, improved fault tolerance.
+ 
+Q5.What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+Ans. - With  SEO we rank our website to relevent user with the help of various tools and technique.USing SEO the serch engine does crawing, indexing, ranking, and displaying results to relevent users.these tools are google  webmaster tools( google serach console) and bing webmaster tools.
+The search engine ranks website on various factors such as prescribed domains, schema markup, mobile friendlyness,social media,tags , loading speed , content, key words, backlinks , site architecture.
 
